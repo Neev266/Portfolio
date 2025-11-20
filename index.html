@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio.</title>
+  <link rel="stylesheet" href="project.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+
+
+  <header>
+    <nav class="nav-bar">
+      <div class="nav-items">
+        <span id="title">Developer</span>
+        <ul class="links">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li>
+            <a href="skills.html">Skills</a>
+          </li>
+          <li>
+            <a href="project.html">Projects</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div class="main">
+    <div class="left">
+      <p id="hello">Hey there! 👋</p>
+      <h1 id="name">I'm Neev Patel</h1>
+      <h2 id="edu">Computer Engineer</h2>
+      <h2 id="intro">
+        I'm just getting started on my journey in APP Dev and full stack development, always curious and always up for a good problem to solve.
+      </h2>
+    </div>
+
+    <div class="right">
+      <div class="window">
+
+        <!--Topmost bar of the terminal-->
+        <div class="top-bar">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+          <span class="file-name">portfolio.py</span>
+        </div>
+        
+        <div class="typewriter">
+        <pre class="snippet"><code>
+<span class="keyword">class</span> <span class="class-name">Developer</span>:
+    <span class="keyword">def</span> <span class="func">__init__</span>(self):
+        self.name = <span class="string">'Neev Patel'</span>
+        self.role = <span class="string">'Computer Engineer'</span>
+        self.interests = [<span class="string">'APP Dev'</span>, <span class="string">'Full Stack Dev'</span>]
+        self.status = <span class="string">'Learning & Growing'</span>
+
+    <span class="keyword">def</span> <span class="func">get_motivation</span>(self):
+        <span class="keyword">return</span> <span class="string">'Always curious, always coding!'</span>
+
+    <span class="keyword">def</span> <span class="func">solve</span>(self, problem):
+        <span class="keyword">return</span> <span class="string">'Challenge accepted!'</span>
+
+        </code></pre>
+        </div>
+
+
+      </div>
+    </div>
+
+  </div>
+
+
+
+</body>
+
+</html>
